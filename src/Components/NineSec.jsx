@@ -20,7 +20,7 @@ const nineSecCardsData=
         },
     ]
   return (
-    <section className="flex">
+    <section className="flex flex-col lg:flex-row">
       {
         nineSecCardsData.map(item=>{
             return(
